@@ -1,6 +1,5 @@
 #!/bin/bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,32 +17,8 @@
 
 set -e
 
-DEVICE=polaris
-VENDOR=xiaomi
+export DEVICE=polaris
+export DEVICE_COMMON=sdm845-common
+export VENDOR=xiaomi
 
-INITIAL_COPYRIGHT_YEAR=2018
-
-# Load extract_utils and do some sanity checks
-MY_DIR="${BASH_SOURCE%/*}"
-if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
-
-MK_ROOT="$MY_DIR"/../../..
-
-HELPER="$MK_ROOT"/vendor/mk/build/tools/extract_utils.sh
-if [ ! -f "$HELPER" ]; then
-    echo "Unable to find helper script at $HELPER"
-    exit 1
-fi
-. "$HELPER"
-
-# Initialize the helper for common
-setup_vendor "$DEVICE" "$VENDOR" "$MK_ROOT"
-
-# Copyright headers and guards
-write_headers "polaris"
-
-# The standard common blobs
-write_makefiles "$MY_DIR"/proprietary-files.txt true
-
-# Finish
-write_footers
+./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
