@@ -25,5 +25,5 @@ $(call inherit-product, device/xiaomi/polaris/device.mk)
 PRODUCT_NAME := full_polaris
 PRODUCT_DEVICE := polaris
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi MIX 2S
+PRODUCT_MODEL := MIX 2S
 PRODUCT_MANUFACTURER := Xiaomi

@@ -6,7 +6,7 @@ $(call inherit-product, vendor/mk/config/common_full_phone.mk)
 PRODUCT_NAME := mk_polaris
 PRODUCT_DEVICE := polaris
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi MIX 2S
+PRODUCT_MODEL := MIX 2S
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
