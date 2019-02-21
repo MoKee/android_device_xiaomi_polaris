@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher 2ECD2531 1550793264 +0800\npushee ssh://mokeedev.review:29418/MoKee/android_device_xiaomi_polaris\nnonce 1550793264-8B1EC12D04592ED0185ABE46C7CE9481388F7D26\n\n0000000000000000000000000000000000000000 14fef2c2c092529f900944c1a030d0afcd6656b3 refs/for/mkp\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1\n\niQEcBAABAgAGBQJcbzowAAoJEPIi9OYuzSUxbFAH+gNqZ8jXfVQQu38mT4AEv9nI\nQduOxKIOwbdfjww3WNQHEmKt4vECM0giAnly5jj/+meMPSJRCfwzL+CvytSsVDg+\nr+IV+MMX6o69YuX8nemXeu91PhUpog07ROMduT1dVepa9N2KzAlWsNh9bgWH+p5d\nGhv5fnvy1mqgmq12SG+//2uEoXXkyLlyoyH+L46bx7btfBhJqwhoLJmX1Bgxw83v\nKWSLNIvFCK/tduGb3ltZf8aorH6PHWGnPFY5wHXjhVkw+IP7QGKltOTM5xcSSmeK\nCnlfaatTtpPgrYlW2oDMa0e7pKS59LDNjHDJeSyWpbR7kluvcljWcC2/SaJr3go\u003d\n\u003dXQoP\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
