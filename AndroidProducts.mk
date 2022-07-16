@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_polaris.mk
+    $(LOCAL_DIR)/mokee_polaris.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_polaris-user \
-    lineage_polaris-userdebug \
-    lineage_polaris-eng
+    mokee_polaris-user \
+    mokee_polaris-userdebug \
+    mokee_polaris-eng
